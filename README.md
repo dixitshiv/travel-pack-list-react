@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React Packing List App
+This React application helps you create and manage a packing list for your trips. Whether you're going on a weekend getaway or a long vacation, this app ensures you don't forget any essential items.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+- https://shivam-react-travelitemslist.netlify.app/
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Items**: Easily add items to your packing list with a description and quantity.
+- **Toggle Packed Status**: Mark items as packed or unpacked with a simple checkbox.
+- **Delete Items**: Remove items from the list that you no longer need.
+- **Clear List**: Quickly clear the entire packing list when you're done.
+- **Statistics**: View statistics about your packing progress, including the total number of items and the percentage packed.
+- **Sort by**: Allows the user to sort items based on input order, alphabetically or packed status.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: A JavaScript library for building user interfaces.
+- **JavaScript (ES6+)**: The latest version of JavaScript with modern syntax and features.
+- **HTML**: Markup language for structuring the application.
+- **CSS**: Styling language for designing the user interface.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this application locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone Repository**: Clone this repository to your local machine using `git clone`.
+2. **Install Dependencies**: Navigate to the project directory in your terminal and run `npm install` to install the necessary dependencies.
+3. **Start Development Server**: Run `npm start` to start the development server.
+4. **View Application**: Open your web browser and navigate to `http://localhost:3000` to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+1. **Add Items**: Enter the description and quantity of the item you want to pack in the input fields. Click the "Add" button to add the item to your packing list.
+2. **Toggle Packed Status**: Once an item is packed, click the checkbox next to it to mark it as packed. Click again to mark it as unpacked.
+3. **Delete Items**: To remove an item from the list, click the "x" button next to it.
+4. **Clear List**: To clear the entire packing list, click the "Clear list" button.
+5. **View Statistics**: View statistics about your packing progress at the bottom of the page. The statistics show the total number of items on your list and the percentage of items packed.
+   
+6. ### Sorting Items
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      You can sort the items in your packing list based on different criteria using the "Sort by" feature.
+    
+    1. **Sort by Input Order**: By default, items are sorted in the order they were added to the list.
+    
+    2. **Sort by Description**: Click on the dropdown menu and select "Sort by description" to sort the items alphabetically based on their description. 
+    
+    3. **Sort by Packed Status**: Select "Sort by packed status" to arrange items based on whether they are packed or not. Packed items will appear first, followed by unpacked items. This feature helps you prioritize packing items that are ready to go.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
